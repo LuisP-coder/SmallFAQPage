@@ -1,0 +1,40 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Indie Flower', cursive;
+    color: #c9b25f;
+}
+
+.questions {
+    width: 1000px;
+}
+
+.question-button {
+    border: 1px solid #c9b25f;
+}
+.question-button:hover {
+    cursor: pointer;
+}
+
+.inner-text {
+    display: none;
+}
+
+.show-text .inner-text{
+    display: block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
